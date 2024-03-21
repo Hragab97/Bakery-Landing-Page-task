@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+  font-style: normal;
+}
+
+.intro {
+
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
+.list_intro {
+    margin-left: 55%;
+    padding-top: 5%;
+}
+
+.list img {
+    width: 40px;
+    height: 40px;
+    border: solid lightgray;
+    border-radius: 50%;
+}
+
+.who_we_are,
+.list_info {
+    width: 40%;
+    float: left;
+}
+
+.who_we_are img {
+    width: 550px;
+}
+
+.list_intro span,
+p,
+
+
+.list_intro span {
+    color: grey;
+    line-height: 3;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li img,
+li span {
+    vertical-align: middle;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+p {
+    font-size: 17px;
+    line-height: 1.5;
+    color: grey;
+}
+
+.td img {
+
+    width: 40px;
+}
+
+ul p {
+    line-height: 1;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.baking {
+    height: 100vh;
+    text-align: center;
+    padding: 2%;
+}
+
+.item {
+    width: 33.33%;
+    float: left;
+}
+
+.item img {
+    width: 90%;
+}
+
+.clrfix {
+    clear: both;
+}
+
+.content {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin-top: 180px;
+}
+
+.home {
+    height: 100vh;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+
+.welcome {
+    margin-top: -5%;
+}
+
+
+.indicator {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    top: 20%;
+    left: 49%;
+    opacity: 50%;
+}
+
+.indicator span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+    border: none;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    animation: animate 1s linear infinite;
+}
+
+.indicator span:nth-child(1) {
+    top: -20px;
+    left: -20px;
+    animation-delay: 0s;
+}
+
+.indicator span:nth-child(2) {
+    top: -10px;
+    left: -10px;
+    animation-delay: 0.2s;
+}
+
+
+.indicator span:nth-child(3) {
+    top: 0px;
+    left: 0px;
+    animation-delay: 0.4s;
+}
+
+@keyframes animate {
+    0% {
+        border-color: transparent;
+    }
+
+    20% {
+        border-color: transparent;
+    }
+
+    200.1%, 100% {
+        border-color: white;
+    }
+}
+
+.title {
+    font-size: 80px;
+}
+
+
+
+.button {
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid rgb(124, 98, 62);
+    background-color: rgb(124, 98, 62);
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-family: sans-serif;
+
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+    border: white;
+}
+
+.secbutton {
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-family: sans-serif;
+
+}
+
+.secbutton:hover {
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+    border: white;
+}
+
+
+.our_location {
+    background-color: rgb(242, 242, 242);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.location {
+    
+  padding-top: 5%;
+
+}
+
+
+.location,.location_img {
+    width: 45%;
+    float: left;
+}
+
+.location_img img {
+    width: 100%;
+    padding-left: 10%;
+}
+
+
+
+.mymaps {
+    background-color: rgb(242, 242, 242);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.contact {
+    padding-right: 10%;
+
+}
+
+
+.contact,.maps {
+    width: 40%;
+    float: left;
+}
+
+.list_maps img {
+    width: 40px;
+    height: 40px;
+    border: solid lightgray;
+    border-radius: 50%;
+    background-color:  rgb(124, 98, 62);
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+}
+
+input {
+    text-align: center;
+    align-items: center;
+    width: 45px;
+    background-color: rgb(94, 94, 94);
+    border-radius: 50%;
+}
+
+.facebook:hover {
+    background-color: rgb(84, 84, 255);
+    border: 50%;
+    transition: 0.7s;
+}
+
+.google:hover {
+    background-color: rgb(255, 84, 84);
+    border: 50%;
+    transition: 0.7s;
+}
+
+.linkedin:hover {
+    background-color: rgba(103, 103, 255, 0.63);
+    border: 50%;
+    transition: 0.7s;
+}
+
+.twitter:hover {
+    background-color: rgba(103, 103, 255, 0.853);
+    border: 50%;
+    transition: 0.7s;
+}
+
+
+.before_footer img {
+    width: 25px;
+    vertical-align: middle;
+}
+
+.before_footer {
+    color: lightgray;
+    text-align: left;
+    background-color: rgb(54, 54, 54);
+    height: 40vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    line-height: 2;
+}
+
+.before_footer span{
+    color: grey;
+}
+
+
+.headone,.traits,.opening_hours,.contact_details {
+    width: 25%;
+    float: left;
+}
+
+
+#detail_map {
+    position: absolute;
+    width: 300px;
+    opacity: 20%;
+    margin-left: -25%;
+    margin-top: 5%;
+}
+
+hr {
+    width: 90%;
+    opacity: 10%;
+}
+
+.contact_details img {
+    width: 40px;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
+    cursor: pointer;
+}
+
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: rgb(124, 98, 62);
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.2s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%
+}
+
+.top a {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(205, 200, 200);
+    border-radius: 50%;
+    position: fixed;
+    opacity: 70%;
+    border: solid white;
+    bottom: 10%;
+    right: 5%;
+}
+
+.top a:hover {
+    background-color: rgb(124, 98, 62);
+    opacity: 100%;
+    transition: 0.7s;
+}
